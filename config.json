@@ -1,0 +1,37 @@
+{
+    
+    "LSTM": {
+      "embedding_dim": 300,
+      "hidden_size": 128,
+      "num_layers": 2,
+      "dropout_rate": 0.8,
+      "learning_rate": 0.001,
+      "epochs": 15
+    },
+    "BiLSTM_Attention": {
+      "embedding_dim": 300,
+      "hidden_size": 128,
+      "num_layers": 2,
+      "dropout_rate": 0.8,
+      "learning_rate": 0.001,
+      "epochs": 15
+    },
+    "RNN": {
+      "embedding_dim": 300,
+      "hidden_size": 128,
+      "num_layers": 3,
+      "dropout_rate": 0.3,
+      "learning_rate": 0.001,
+      "epochs": 30
+    },
+    "GRU":{
+      "embedding_dim": 300,
+      "hidden_size": 128,
+      "num_layers": 2,
+      "dropout_rate": 0.7,
+      "learning_rate": 0.001,
+      "epochs": 15
+    }
+    
+  }
+  
