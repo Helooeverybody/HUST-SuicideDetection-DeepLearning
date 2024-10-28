@@ -31,6 +31,14 @@
       "dropout_rate": 0.7,
       "learning_rate": 0.001,
       "epochs": 15
+    },
+    "CNN": {
+      "embedding_dim": 300,
+      "num_filters": 100,
+      "filter_sizes": [2, 3, 4, 5, 6],
+      "dropout_rate": 0.5,
+      "learning_rate": 0.0001,
+      "epochs": 15
     }
     
   }
