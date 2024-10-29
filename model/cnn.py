@@ -7,7 +7,7 @@ class CNN(nn.Module):
         super(CNN, self).__init__()
         
         if embedding_matrix is not None:
-            self.embedding = nn.Embedding.from_pretrained(torch.FloatTensor(embedding_matrix), freeze=True)
+            self.embedding = nn.Embedding.from_pretrained(torch.FloatTensor(embedding_matrix), freeze=False)
         else:
             self.embedding = nn.Embedding(vocab_size, embedding_dim)
         self.convs = nn.ModuleList([nn.Conv2d(1, num_filters, (fs, embedding_dim)) for fs in filter_sizes])
