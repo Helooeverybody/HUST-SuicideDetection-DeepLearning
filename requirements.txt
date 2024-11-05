@@ -1,0 +1,8 @@
+torch==2.2.1
+gensim==4.3.3
+pandas==2.0.3
+tensorflow==2.14.0
+symspellpy==6.7.7
+spacy==3.7.4
+matplotlib==3.7.2
+seaborn==0.12.2
