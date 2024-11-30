@@ -164,3 +164,4 @@ cython_debug/
 # the data folder since it's too big
 data/
 model/finetuned-electra
+UI/utils/suicide_pretrained
