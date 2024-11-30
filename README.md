@@ -38,3 +38,7 @@ early intervention systems, utilizing key metrics like F1 score and accuracy.
 └── requirement.txt                      # Dependencies
 
 ```
+## UI guide
+
+Please download folder **suicide-pretrained** from [data](https://husteduvn-my.sharepoint.com/:f:/g/personal/minh_nn225510_sis_hust_edu_vn/ElMsC1qDV-xKoBvgySROcuABbhgj_nQYGB6c5TH0pIZggQ?e=zPpgjw) and place it into destination **UI/utils**.
+To run the UI: **python UI/app.py**
