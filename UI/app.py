@@ -12,7 +12,7 @@ def index_get():
 @app.route('/predict', methods=['POST'])
 def predict():
     user_input = request.json['message']
-    response = answer(user_input)
+    response = answer(user_input,model_architecture="bert")
     return jsonify({'response': response})
 
 if __name__ == '__main__':
