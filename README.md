@@ -40,6 +40,6 @@ early intervention systems, utilizing key metrics like F1 score and accuracy.
 ```
 ## UI guide
 
-Please download folder **suicide-pretrained** from [data](https://husteduvn-my.sharepoint.com/:f:/g/personal/minh_nn225510_sis_hust_edu_vn/ElMsC1qDV-xKoBvgySROcuABbhgj_nQYGB6c5TH0pIZggQ?e=zPpgjw) and place it into destination **UI/utils**.
+Please download folder **suicide-pretrained** from [data](https://husteduvn-my.sharepoint.com/:f:/g/personal/minh_nn225510_sis_hust_edu_vn/ElMsC1qDV-xKoBvgySROcuABbhgj_nQYGB6c5TH0pIZggQ?e=zPpgjw) and place it into destination **./transformer/bert-train/**.
 
 To run the UI, type the command **python UI/app.py** in your cmd 
