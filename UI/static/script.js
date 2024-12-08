@@ -20,7 +20,7 @@ const generateResponse= (incomingChatLi) =>{
         messageElement.textContent="Oops!Error!";
     })
     .finally(()=>{
-         chatBox.scrollTo(0,chatBox.scrollHeight)});
+        chatBox.scrollTo(0,chatBox.scrollHeight); });
 }
 const createChatLi=(message, className)=>{
     const chatLi=document.createElement("li");
@@ -34,12 +34,25 @@ const handleChat=() =>{
     userMessage=chatInput.value.trim();
     if (!userMessage) return;
     chatBox.appendChild(createChatLi(userMessage,"outgoing"))
+    chatInput.value="";  
+    chatInput.focus();
     chatBox.scrollTo(0,chatBox.scrollHeight);
     setTimeout(()=>{
         const incomingChatLi=createChatLi("Thinking...","incoming")
         chatBox.appendChild(incomingChatLi);
         chatBox.scrollTo(0,chatBox.scrollHeight);
         generateResponse(incomingChatLi);
-    },1000);
+    },600);
 }
+chatInput.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        if (event.shiftKey) {
+            // Allow newline on Shift+Enter
+            return;
+        }
+        // Send the message on Enter
+        event.preventDefault();
+        handleChat();
+    }
+});
 sendChatBtn.addEventListener("click",handleChat);
