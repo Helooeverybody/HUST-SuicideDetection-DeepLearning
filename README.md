@@ -1,6 +1,14 @@
 # Suicide Detection based on NLP-DeepLearning
 Suicide Detection data : [data](https://husteduvn-my.sharepoint.com/:f:/g/personal/minh_nn225510_sis_hust_edu_vn/ElMsC1qDV-xKoBvgySROcuABbhgj_nQYGB6c5TH0pIZggQ?e=zPpgjw)
 
+Group 7 members:
+
+- Nguyen Nhat Minh 20225510
+- Doi Sy Thang - 20225528
+- Ngo Duy Dat - 20225480
+- Nguyen Hoang Son Tung - 20225536
+- Vu Tuan Truong - 20225535
+
 ## Project Description
 
 This project addresses suicide detection through binary text classification using a blend of 
