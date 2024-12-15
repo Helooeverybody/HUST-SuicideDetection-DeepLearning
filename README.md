@@ -21,11 +21,15 @@ early intervention systems, utilizing key metrics like F1 score and accuracy.
 |   ├── SkipGram_embeddings.pkl          # trained SkipGram embeddings
 |   ├──tokenizer.json                    # tokenizer dictionary
 ├── model/
+|   ├── Bert                             # implement Bert architecture 
 |   ├── attention_bilstm.py              # Bi-LSTM with Attention model
 |   ├── gru.py                           # GRU model
 |   ├── lstm.py                          # LSTM model
 |   ├── rnn.py                           # RNN model
 |   └── cnn.py                           # CNN model
+|── Transformer/
+|   ├── Bert notebook
+|   ├── Electra notebook
 ├── preprocessing_model/
 |   ├── label_encoder_wunk.py            # super class of label encoder with dunk
 |   └── w2v.py                           # W2V model(Cbow and SkipGram)
